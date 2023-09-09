@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family= Tilt+Neon & display=swap');
+body{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#b3cce2, #D9CCC1);
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    background: #005eb0;
+    color:#D9CCC1
+}
+h2{
+    font-size: 1.5rem;
+    background: #005eb0;
+    color:#D9CCC1;
+}
+p{
+    font-size: 1.0rem;
+    color:#024059
+}
+p.motiva{
+    font-family: 'Tilt Neon', cursiva;
+    letter-spacing: 1.5;
+    text-align: justify;
+}
+p.bold{
+    font-weight: bold;
+    color:  black;
+}
+p.autor{
+    text-align: right;
+    color:darkslategray;
+    font-style: italic;
+}
+p.data{
+    text-align: left;
+    color:darkslategray;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+sub{
+    font-size: 16px;
+}
+sup{
+    font-size: 16px;
+}
+.strikethrough {
+    position: relative;
+}
+.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: #024059;
+    
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+}
